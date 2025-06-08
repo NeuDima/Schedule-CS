@@ -1,0 +1,95 @@
+.wrap {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+}
+
+.wp-heading-inline {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1d2327;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table th {
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-table td {
+    padding-bottom: 20px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.wp-core-ui .button-primary {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.wp-core-ui .button-primary:hover {
+    background-color: #005177;
+}
+
+.notice {
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.notice-success {
+    background-color: #e7f7e8;
+    border-left: 4px solid #46b450;
+}
+
+.notice-error {
+    background-color: #fbeaea;
+    border-left: 4px solid #dc3232;
+}
+
+@media (max-width: 600px) {
+    .wrap {
+        padding: 20px;
+    }
+
+    .form-table th,
+    .form-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .form-table th {
+        margin-bottom: 5px;
+    }
+
+    input[type="file"] {
+        font-size: 14px;
+    }
+
+    .wp-core-ui .button-primary {
+        width: 100%;
+    }
+}

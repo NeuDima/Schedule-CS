@@ -1,0 +1,7 @@
+/* Скрываем лишние элементы WordPress темы */
+header, footer, .site-header, .site-footer,
+nav, .main-navigation, .menu, .sidebar,
+.widget-area, .site-branding, .site-info,
+.entry-footer, .footer-navigation {
+    display: none !important;
+}
